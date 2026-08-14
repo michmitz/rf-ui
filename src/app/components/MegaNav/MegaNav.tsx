@@ -57,7 +57,7 @@ export const MegaNav: React.FC<MegaNavProps> = ({
 
           <div className={searchInputContainer}>
             <Image
-              src="/icons/magnifying-glass.svg"
+              src="icons/magnifying-glass.svg"
               width="12"
               height="12"
               alt="magnifying-glass.svg"
@@ -83,7 +83,7 @@ export const MegaNav: React.FC<MegaNavProps> = ({
                 className={`${navItem} ${activeIndex && activeNav}`}
               >
                 <Image
-                  src={`/icons/${activeIndex ? "active-nav-item.svg" : "inactive-nav-item.svg"}`}
+                  src={`icons/${activeIndex ? "active-nav-item.svg" : "inactive-nav-item.svg"}`}
                   width="24"
                   height="24"
                   alt={`${activeIndex ? "active-nav-item.svg" : "inactive-nav-item.svg"}`}

@@ -28,7 +28,7 @@ export const RegistrationCards: React.FC<RegistrationCardsProps> = ({
           {card.addWorkflow ? (
             <div className={addWorkflow}>
               <Image
-                src="/icons/add-workflow.svg"
+                src="icons/add-workflow.svg"
                 alt="add-workflow-card"
                 width="24"
                 height="24"
@@ -40,7 +40,7 @@ export const RegistrationCards: React.FC<RegistrationCardsProps> = ({
               <div className={iconTitleBox}>
                 {card.icon && (
                   <Image
-                    src={`/icons/${card.icon}`}
+                    src={`icons/${card.icon}`}
                     alt={`${card.icon}`}
                     width="24"
                     height="24"

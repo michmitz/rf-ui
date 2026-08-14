@@ -17,13 +17,13 @@ export const IconNav: React.FC = () => {
 
         <div className={iconNavTop}>
         <Image
-          src="/icons/rainFocus-logo.svg"
+          src="icons/rainFocus-logo.svg"
           width="32"
           height="32"
           alt="magnifying-glass.svg"
         />
         <Image
-          src="/Logo.png"
+          src="Logo.png"
           width="32"
           height="32"
           alt="magnifying-glass.svg"
@@ -31,7 +31,7 @@ export const IconNav: React.FC = () => {
         </div>
 
         <Image
-          src="/icons/nav-user.svg"
+          src="icons/nav-user.svg"
           width="48"
           height="48"
           alt="nav-user.svg"

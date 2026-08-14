@@ -64,7 +64,7 @@ export default function Home() {
           <section className={settingsStepsContainer}>
             <div className={attendeesHeader}>
               <Image
-                src="/icons/person-portal.svg"
+                src="icons/person-portal.svg"
                 width="35"
                 height="35"
                 alt="person-portal.svg"

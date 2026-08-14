@@ -37,7 +37,7 @@ export const EventHeader: React.FC<EventHeaderProps> = ({
     <div className={wrapper}>
       <div className={header}>
         <div className={imageAndTitle}>
-          <Image src={`/${img}`} width="100" height="100" alt={`${img}`} />
+          <Image src={img} width="100" height="100" alt={img} />
 
           <div>
             <h1>{title}</h1>
