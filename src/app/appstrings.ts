@@ -7,6 +7,7 @@ export const appStrings = {
   step3: "Step 3",
   designExperiences: "Design post-registration experiences.",
   addRegistrationWorkflow: "Add Registration Workflow",
+  editEvent: "Edit Event",
   eventSetupGuideHeader: "Event Setup Guide",
   eventSetupGuideSubtitle: "See the available list of modules below. We suggest that you start with the attendee module."
 }

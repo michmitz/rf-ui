@@ -12,12 +12,6 @@ import styles from "./page.module.scss";
 import { MegaNav } from "./components/MegaNav/MegaNav";
 import { appStrings } from "./appstrings";
 
-// Todos:
-// Destructure all styles
-// Correctly name colors
-// App strings
-// Make sure everything is in scss...?
-
 const {
   stepHeader,
   stepLabel,
@@ -78,7 +72,7 @@ export default function Home() {
               <h3>{attendee}</h3>
             </div>
 
-            <div className={styles.stepBlock}>
+            <div className={stepBlock}>
               <StepHeader step={step1} title={baseSettings} />
               <BaseSettings settings={settingsArr} />
             </div>

@@ -15,7 +15,7 @@ interface RegistrationCardsProps {
   cards: Card[];
 }
 
-const { wrapper, addWorkflow, iconTitleBox, title } = styles;
+const { cardContainer, wrapper, addWorkflow, iconTitleBox, title } = styles;
 const { addRegistrationWorkflow } = appStrings;
 
 export const RegistrationCards: React.FC<RegistrationCardsProps> = ({
@@ -24,7 +24,7 @@ export const RegistrationCards: React.FC<RegistrationCardsProps> = ({
   return (
     <div className={wrapper}>
       {cards.map((card, i) => (
-        <div className={styles.card} key={i}>
+        <div className={cardContainer} key={i}>
           {card.addWorkflow ? (
             <div className={addWorkflow}>
               <Image

@@ -18,6 +18,8 @@
   flex-direction: row;
   align-items: center;
   gap: 15px;
+  border-top: 1px solid var(--neutral-border);
+  padding-top: 24px;
 }
 
 .stepBlock {
@@ -34,4 +36,10 @@
     margin-right: 5px;
   }
 }
+}
+
+ @media screen and (max-width: 700px) {
+    .main {
+      flex-wrap: wrap;
+    }
 }

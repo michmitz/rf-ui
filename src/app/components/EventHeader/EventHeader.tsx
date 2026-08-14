@@ -30,6 +30,9 @@ export const EventHeader: React.FC<EventHeaderProps> = ({
     subheader,
   } = styles;
 
+  const { editEvent, eventSetupGuideHeader, eventSetupGuideSubtitle } =
+    appStrings;
+
   return (
     <div className={wrapper}>
       <div className={header}>
@@ -42,12 +45,12 @@ export const EventHeader: React.FC<EventHeaderProps> = ({
             <p className={details}>{location}</p>
           </div>
         </div>
-        <button onClick={handleEditEvent}>Edit event</button>
+        <button onClick={handleEditEvent}>{editEvent}</button>
       </div>
 
       <div className={eventSetupGuideBox}>
-        <h2>{appStrings.eventSetupGuideHeader}</h2>
-        <p className={subheader}>{appStrings.eventSetupGuideSubtitle}</p>
+        <h2>{eventSetupGuideHeader}</h2>
+        <p className={subheader}>{eventSetupGuideSubtitle}</p>
       </div>
     </div>
   );

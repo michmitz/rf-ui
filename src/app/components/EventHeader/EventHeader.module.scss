@@ -12,7 +12,7 @@
   .imageAndTitle {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: fit-content;
     gap: 16px;
     flex-wrap: wrap;
 
@@ -49,4 +49,3 @@
     color: var(--text-body);
   }
 }
-
