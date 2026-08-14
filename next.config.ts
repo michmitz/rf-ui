@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   output: "export",
-  assetPrefix: "./",
+  agentRules: false,
   images: {
     unoptimized: true,
   },

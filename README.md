@@ -10,14 +10,9 @@ A single-page event registration setup screen built for the RainFocus UI Develop
 - SCSS Modules, compiled with [Sass](https://sass-lang.com/) — no CSS framework (no Bootstrap/Tailwind); all layout and styling is custom
 - TypeScript
 
-## Viewing the Finished Build (no install required)
+## Viewing the Finished Build (no build step required)
 
-This zip includes a pre-compiled, static export of the app in the `build/` folder. To view it:
-
-1. Unzip the project.
-2. Open `build/index.html` directly in your browser (double-click it, or drag it into a browser window).
-
-No `npm install` or build step is needed — the app, styles, and images are fully self-contained in that folder.
+This zip includes a pre-compiled, static export of the app in the `build/` folder. Just open `build/index.html` directly in your browser (double-click it, or drag it into a browser window) — no server, install, or build step needed. The nav (try clicking "Attendees") and all other interactions work straight from the file.
 
 ## Running from Source
 
